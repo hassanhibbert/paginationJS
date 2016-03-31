@@ -1,0 +1,40 @@
+a {
+    background: #ccc;
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.hide {
+    display: none;
+}
+
+.pagination-nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.pagination-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pagination-nav li:hover {
+    background: #ccc;
+}
+
+.pagination-nav .active-page {
+    background: #ccc;
+}
+
+#pagination1 {
+    width: 400px;
+}
